@@ -1,4 +1,4 @@
-ARG PARENT_IMAGE=pwalczysko/omero-web:latest
+ARG PARENT_IMAGE=pwalczysko/omero-web:5
 FROM ${PARENT_IMAGE}
 MAINTAINER ome-devel@lists.openmicroscopy.org.uk
 
