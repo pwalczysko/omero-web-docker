@@ -53,7 +53,7 @@ jobs:
       runs-on: ubuntu-24.04
       env:
         name: pwalczysko/omero-web-standalone
-        nameParent: pwalczysko/omero-web:latest
+        nameParent: pwalczysko/omero-web:5
         folder: standalone
       steps:
         - uses: actions/checkout@v6
